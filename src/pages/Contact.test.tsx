@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Contact from './Contact';
 
-it('should have contact page', () => {
-  render(<App />);
+it('should have content', () => {
+  render(<Contact />);
 
   const page = screen.getByText("Contact");
 
   expect(page).toBeInTheDocument();
-});
+})
