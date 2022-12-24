@@ -1,7 +1,7 @@
-import FieldSubmit from "../moleculs/FieldSubmit";
-import FieldEmail from "../moleculs/FieldEmail";
-import FieldText from "../moleculs/FieldText";
-import FieldTextarea from "../moleculs/FieldTextarea";
+import FieldSubmit from "../molecules/FieldSubmit";
+import FieldEmail from "../molecules/FieldEmail";
+import FieldText from "../molecules/FieldText";
+import FieldTextarea from "../molecules/FieldTextarea";
 
 export default function ContactForm() {
   return (
